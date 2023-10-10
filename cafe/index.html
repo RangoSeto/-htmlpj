@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe House</title>
+    <link href="./assets/logo2.jpg" rel="icon" type="image/png" sizes="36x36">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <!-- Start Header Section  -->
+    <header>
+
+        <!-- start navbar  -->
+        <nav class="navbar navbar-expand-lg px-5 py-3">
+            <a href="javascript:void(0)">
+                <img src="./assets/logo.png" width="180px" alt="logo" />
+            </a>
+
+            <button type="button" class="navbar-toggler navbuttons" data-bs-toggle="collapse" data-bs-target="#nav">
+                <div class="lines line1"></div>
+                <div class="lines line2"></div>
+                <div class="lines line3"></div>
+            </button>
+
+            <ul id="nav" class="navbar-nav navbar-collapse collapse justify-content-end">
+                <li class="nav-item"><a href="javascript:void(0)" class="nav-link me-4 fw-bold fs-6">Home</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="nav-link me-4 fw-bold fs-6">About Us</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="nav-link me-4 fw-bold fs-6">Order</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="nav-link me-4 fw-bold fs-6">Contact Us</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="nav-link fw-bold"><i class="fa-solid fa-circle-user fa-xl me-1" style="color: #6e6e6e;"></i>Log in</a></li>
+            </ul>
+        </nav>
+        <!-- end navbar  -->
+
+        <!-- start banner  -->
+        <div class="text-white banners">
+            <h5 class="fw-light">Cafe & Restaurant Est.2035</h5>
+            <h1 class="display-3 my-5 ban-titles">Your Go-to Spot for Delicious Eats & Coffee</h1>
+            <button type="button" class="btn btn-lg btn-whs me-4 mb-3">Order Now</button>
+            <button type="button" class="btn btn-lg btn-whs mb-3">Our Menu</button>
+        </div>
+        <!-- end banner  -->
+
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Schedule Section  -->
+    <section>
+        <div class="schedule-containers">
+
+            <div>
+                <a href="javascript:void(0);" class="sche-lang-icons" onclick="schbtn(-1)"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+                <a href="javascript:void(0);" class="sche-rang-icons" onclick="schbtn(1)"><i class="fa-solid fa-angle-right fa-xl"></i></a>
+            </div>
+
+            <div class="schedule-items text-center">
+                <p class="text-white py-4 sche-texts my-auto">Weekend Brunch     |    Saturday 9am - 2pm</p>
+                <p class="text-white py-4 sche-texts my-auto">Daily Deal    |   Coffee & Pastry $3.99</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Schedule Section  -->
+
+    <!-- Start Eat Section  -->
+    <section>
+        <div class="eat">
+            
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center p-0">
+                    <div class="p-5 m-5">
+                        <h1 class="display-3 eat-titles">Eat.</h1>
+                        <h3 class="h4 fw-light mb-4">Breakfast, Lunch and Artisanal Pastries</h3>
+                        <p class="fw-light mb-4">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button type="button" class="btn btn-lg btn-dars me-4 mb-3">See More</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-end p-0">
+                    <img src="./assets/para/eat.jpg" class="img-fluid eat-imgs" alt="eat" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Eat Section  -->
+
+    <!-- Start Drink Section  -->
+    <section>
+        <div class="drink">
+
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center p-0 float-end drink-col-ones">
+                    <div class="p-5 m-5">
+                        <h1 class="display-3 drink-titles">Drink.</h1>
+                        <h3 class="h4 fw-light mb-4">The Freshest Cup in Town </h3>
+                        <p class="fw-light mb-4">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button type="button" class="btn btn-lg btn-dars me-4 mb-3">See More</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-end p-0 drink-col-twos">
+                    <img src="./assets/para/drink.jpg" class="img-fluid drink-imgs" alt="drink" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Drink Section  -->
+
+    <!-- Start Enjoy Section  -->
+    <section>
+        <div class="enjoy">
+            
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center p-0">
+                    <div class="p-5 m-5">
+                        <h1 class="display-3 enjoy-titles">Enjoy.</h1>
+                        <h3 class="h4 fw-light mb-4">Make Yourself at Home</h3>
+                        <p class="fw-light mb-4">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button type="button" class="btn btn-lg btn-dars me-4 mb-3">Visit Us</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-end p-0">
+                    <img src="./assets/para/enjoy.jpg" class="img-fluid enjoy-imgs" alt="enjoy" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Enjoy Section  -->
+
+    <!-- Start Address Section -->
+    <section class="add">
+        <div class="container text-center p-5">
+            <h1 class="display-3 add-titles text-black p-4">Drop By for a Bite.</h1>
+            <div class="add-containers">
+                <div class="p-4">
+                    <h3 class="mb-4">Address</h3>
+                    <p>500 Terry Francine St.<br/>San Francisco, CA 94158</p>
+                </div>
+                <div class="p-4">
+                    <h3 class="mb-4">Opening Hours</h3>
+                    <p>Mon - Fri: 9am - 6pm <br/> ​​Saturday: 10am - 2pm <br/> ​Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Address Section -->
+
+    <!-- Start Gallery Section -->
+    <section class="px-3">
+        <div class="row">
+
+            <div class="gal-items">
+                <img src="./assets/gallery/image1.jpg" width="100%" alt="img1" />
+            </div>
+
+            <div class="gal-items">
+                <img src="./assets/gallery/image2.jpg" width="100%" alt="img2" />
+            </div>
+
+            <div class="gal-items">
+                <img src="./assets/gallery/image3.jpg" width="100%" alt="img3" />
+            </div>
+
+            <div class="gal-items">
+                <img src="./assets/gallery/image5.jpg" width="100%" alt="img5" />
+            </div>
+
+            <div class="gal-items">
+                <img src="./assets/gallery/image6.jpg" width="100%" alt="img6" />
+            </div>
+
+        </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footers py-4">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-5">
+                        <h3 class="footer-titles">Newsletter</h3>
+                        <p class="py-3">Stay up to date with all the latest from Coffee House</p>
+                        <form action="">
+                            <label for="email" class="form-label">Email*</label>
+                            <div class="input-group">
+                                <input type="text" id="email" class="form-control bg-transparent transition" />
+                                <button type="button" class="btn btn-lg btn-transparent border text-white transition">Join</button>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-5">
+                        <h3 class="footer-titles">Talk to Us</h3>
+                        <p class="py-3">123-456-7890 <br/> info@mysite.com​</p>
+                        <p>500 Terry Francine St. <br/> San Francisco, CA 94158</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="p-5">
+                        <a href="https://www.instagram.com/" class="footer-titles socials">Instagram</a>
+                        <a href="https://www.facebook.com/" class="footer-titles socials">Facebook</a>
+                        <a href="https://www.twitter.com/" class="footer-titles socials">Twitter</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <section class="cpys">
+        <div class="container text-center">
+            <p class="small text-muted py-2 my-auto">&copy; <span class="getyear"></span> by Cafe House . All rights reserved</p>
+        </div>
+    </section>
+    <!-- End Footer Section -->
+
+    
+
+	<!-- Start down-to-up Button  -->
+	<div class="down-to-ups">
+		<a href="#" class="btn btn-sm downup-btns"><i class="fa-solid fa-angle-up"></i></a>
+	</div>
+	<!-- End down-to-up Button  -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./app/app.js" type="text/javascript"></script>
+</body>
+</html>

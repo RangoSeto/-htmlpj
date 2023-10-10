@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alkatra', cursive;
+    height: 100vh;
+    background-color: #00425A;
+    color: #BFDB38;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    background-color: #1F8A70;
+
+    padding: 25px 0;
+    font-size: 22px;
+
+    border: 7px solid #FC7300;
+    border-radius: 20px;
+}
+
+.box-container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yesornobox{
+    width: 50%;
+    padding: 0 25px;
+    border-right: 3px solid #000;
+}
+.yntext{
+    border-bottom: 3px dashed #00425A;
+    /* animation-name: myani; */
+    /* animation-duration: 2s; */
+
+}
+.btn{
+    text-decoration: none;
+    background-color: #FC7300;
+    color: antiquewhite;
+
+    padding: 3px 25px;
+    border-radius: 10px;
+}
+
+/* @keyframes myani{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */
+
+.numberbox{
+    width: 50%;
+    padding: 0 20px;
+
+}
+.numberbox p{
+    margin: 12px 0;
+}
+
+.luckynum{
+    margin-bottom: 20px;
+}
+.num{
+    font-size: 30px;
+    background-color: #00425A;
+    padding: 2px 13px;
+    border-radius: 5px;
+}
+
